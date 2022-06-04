@@ -6,3 +6,11 @@ vector<int> reverseArray(vector<int> a) {
     return a;
 
 }
+
+// or //
+
+vector<int> reverseArray(vector<int> a) {
+    reverse(a.begin(), a.end());
+    
+    return a;
+}
